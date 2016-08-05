@@ -1,0 +1,39 @@
+/* Inserta tu codigo aqui */
+.clases {
+	background-color: #D8D8D8;
+}
+.dancer {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 400px;
+	margin: 10px;
+}
+.ballet {
+	background-image: url(../img/dance_12.jpg);
+}
+.moderm {
+	background-image: url(../img/breakdance.jpg);
+}
+.jazz {
+	background-image: url(../img/lirical-jazz.jpg);
+}
+.arabic {
+	background-image: url(../img/arabe.jpg);
+}
+.kids {
+	background-image: url(../img/little.jpg);
+}
+.yoga {
+	background-image: url(../img/yoga.jpg);
+}
+
+.baile {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-size: 14px;
+	margin: 10px;
+	padding: 20px 10px;
+	text-align: center;
+	position: relative;
+	top: 150px;
+}

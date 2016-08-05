@@ -1,0 +1,98 @@
+/* Inserta tu codigo aqui */
+/*secciones*/
+.blue {
+	background-image: url(../img/dance_1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.text-blue {
+	padding: 50px 30px;
+	width: 30%;
+}
+.text-blue h2 {
+	font-size: 70px;
+	padding: 10px 0px;
+	color: #C3C6C5;
+}
+.text-blue p {
+	color: #C3C6C5;
+}
+.studio {
+	background-color: #040F1D;
+	margin: 30px 0px;
+	padding: 10px;
+	text-align: center;
+	width: 50%;
+}
+.studio a {
+	color: #C3C6C5; 
+}
+/*info*/
+.info {
+	background-image: url(../img/textura_2.jpg);
+	background-repeat: repeat;
+}
+.cuadro {
+	text-align: center;
+	padding: 30px;
+}
+.texto-info {
+	color: #192951;
+	font-size: 28px;
+}
+.decor {
+	width: 10%;
+}
+.boton-azul {
+	background-color: #192951;
+	border-radius: 5px;
+	padding: 20px 0px;
+	width: 30%;
+	margin: 0 auto;
+}
+.boton-azul a {
+	color: white;
+}
+/**/
+.teach-1 {
+	background-image: url(../img/instructor_4.jpg);
+	background-size: 100%;
+	border: 2px solid #192951;
+	height: 300px;
+}
+.teach-2 {
+	background-image: url(../img/profesor_9.jpg);
+	background-size: 100%;
+	border: 2px solid #192951;
+	height: 300px;
+}
+.teach {
+	background-color: #192951;
+	color: white;
+	font-size: 20px;
+	margin-left: 350px;
+	margin-top: 216px;
+	padding: 30px 80px;
+	position: absolute;
+	text-align: center;
+	width: 50%;
+}
+
+/*danza*/
+.frase {
+	font-size: 36px;
+	font-style: italic;
+	padding: 70px 0px;
+	text-align: center;
+}
+/*mapa*/
+.info-2 {
+	background-color: #192951;
+}
+.maps {
+	color: white;
+	padding: 50px 10px 0px;
+}
+.mapa {
+	margin: 20px;
+}
