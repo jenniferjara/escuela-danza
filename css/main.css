@@ -3,87 +3,117 @@
 .blue {
 	background-image: url(../img/dance_1.jpg);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
+	padding: 8% 0%;
 }
-.text-blue {
-	padding: 50px 30px;
-	width: 30%;
+/*
+.text-blue{
+	padding: 3% 0% 12% 8%;
 }
+*/
 .text-blue h2 {
-	font-size: 70px;
-	padding: 10px 0px;
+	font-size: 5em;
 	color: #C3C6C5;
 }
 .text-blue p {
 	color: #C3C6C5;
+	margin-top: 2%;
+	width: 25%;
 }
 .studio {
-	background-color: #040F1D;
-	margin: 30px 0px;
-	padding: 10px;
-	text-align: center;
-	width: 50%;
+	display: inline-block;
+	margin-top: 30px;
+	color: white;
+	text-decoration: none;
+	padding: 13px 20px;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 3px;
 }
-.studio a {
-	color: #C3C6C5; 
+.studio:hover {
+	background-color: #fff;
+	border: 2px solid #192951;
+	color: #192951;
+	font-weight: bold;
 }
+
 /*info*/
 .info {
 	background-image: url(../img/textura_2.jpg);
 	background-repeat: repeat;
 }
 .cuadro {
+	padding: 4% 0% 12% 0%;
 	text-align: center;
-	padding: 30px;
 }
 .texto-info {
 	color: #192951;
-	font-size: 28px;
+	font-size: 2em;
+	text-align: center;
+	padding: 5% 9% 0% 9%;
 }
 .decor {
-	width: 10%;
+	display: block;
+	margin: 0 auto;
+	width: 12%;
 }
 .boton-azul {
+	display: inline-block;
 	background-color: #192951;
 	border-radius: 5px;
-	padding: 20px 0px;
-	width: 30%;
-	margin: 0 auto;
-}
-.boton-azul a {
 	color: white;
+	font-size: 1.5em;
+	padding: 2% 4%;
+}
+.boton-azul:hover {
+	background-color: #fff;
+	border: 2px solid #192951;
+	color: #192951;
+	font-weight: bold;
 }
 /**/
+.teach {
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
 .teach-1 {
 	background-image: url(../img/instructor_4.jpg);
-	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 	border: 2px solid #192951;
-	height: 300px;
+	height: 400px;
 }
 .teach-2 {
 	background-image: url(../img/profesor_9.jpg);
-	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 	border: 2px solid #192951;
-	height: 300px;
+	height: 400px;
 }
-.teach {
+.bt-teach {
+	display: inline-block;
 	background-color: #192951;
-	color: white;
-	font-size: 20px;
-	margin-left: 350px;
-	margin-top: 216px;
-	padding: 30px 80px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 1.5em;
+	padding: 1.5% 5%;
 	position: absolute;
-	text-align: center;
-	width: 50%;
+	left: 36%;
+	bottom: 0%;
 }
-
+.bt-teach:hover {
+	background-color: #fff;
+	border: 2px solid #192951;
+	color: #192951;
+	font-weight: bold;
+}
 /*danza*/
 .frase {
-	font-size: 36px;
-	font-style: italic;
-	padding: 70px 0px;
+	font-size: 3.5em;
+	padding: 10% 0px;
 	text-align: center;
+	color: #192951;
+	font-style: italic;
 }
 /*mapa*/
 .info-2 {
@@ -91,8 +121,8 @@
 }
 .maps {
 	color: white;
-	padding: 50px 10px 0px;
+	padding: 10% 7% 0%;
 }
 .mapa {
-	margin: 20px;
+	margin: 10% 5%;
 }

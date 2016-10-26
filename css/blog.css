@@ -2,41 +2,50 @@
 .blog {
 	background-color: #F1F1F0;
 }
+.title-blog{
+	color: #192951;
+	text-align: center;
+	padding: 5% 0%;
+}
+.pd-bt{
+	padding-bottom: 5%;
+}
 .blog-img {
 	background-repeat: no-repeat;
-	background-size: 100%;
-	height: 170px;
+	background-position: center;
+	background-size: cover;
+	height: 240px;
 }
 .blog-1 {
 	background-image: url(../img/blog1.jpg);
 }
 .blog-2 {
 	background-image: url(../img/blog_3.jpg);
-	background-position: -30px 0px;
-	background-size: 150%;
 }
 .blog-3 {
 	background-image: url(../img/instructor_1.jpg);
-	background-position: -30px 0px;
-	background-size: 150%;
 }
-
 .articulo {
 	background-color: #E6E6E6;
-	margin-bottom: 20px;
-	padding: 20px 30px;
-	
+	height: 240px;
+	padding: 4%;
+	text-align: left;
 }
 .fecha {
 	color: #848484;
 	font-style: italic;
-	padding: 5px 0px;
+	margin: 1% 0%;
 }
 .boton {
 	background-color: #192951;
-	border-radius: 3px;
+	border-radius: 5px;
 	color: white;
 	display: inline-block;
-	padding: 10px;
-	margin: 10px 0 0 0;
+	padding: 1.2% 10%;
+	margin-top: 2%;
+}
+.boton:hover {
+	background-color: #fff;
+	color: #192951;
+	font-weight: bold;
 }

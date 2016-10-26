@@ -1,74 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Escuela de Danza - Blog</title>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/simplegrid.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/blog.css">
-	<title>Escuela de Danza - Blog</title>
 </head>
 <body>
 	<!-- Inserta tu código aqui -->
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-12">
-					<h1><a href="index.html">ESCUELA DE DANZA</a></h1>
-				</div>
-				<div class="col-12">
-					<nav>
-						<a href="nosotros.html">Nosotros</a>
-						<a href="clases.html">Clases</a>
-						<a href="blog.html">Blog</a>
-						<a href="#contacto">Contáctanos</a>
-					</nav>
-				</div>
+				<a class="titulo" href="index.html">ESCUELA DE DANZA</a>
+				<nav class="menu-principal">
+					<a href="nosotros.html">Nosotros</a>
+					<a href="clases.html">Clases</a>
+					<a href="blog.html">Blog</a>
+					<a href="#contacto">Contáctanos</a>
+				</nav>
 			</div>
 		</div>
 	</header>
 	<section class="blog">
 		<div class="container">
-			<h2 class="title">Blog</h2>
-			<div class="row">
-				<div class="col-2">
-					<div class="blog-img blog-1"></div>
-				</div>
-				<div class="col-10">
-					<div class="articulo">
-						<h6>TÍTULO DEL ARTICULO</h6>
-						<p class="fecha">Fecha</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, nam vel ipsam explicabo tenetur ducimus dicta dolore? Aperiam alias impedit laudantium asperiores expedita minus fuga nesciunt, at, explicabo sapiente, laborum!</p>
-						<a href="#" class="boton">Ver más</a>
-					</div>
+			<h1 class="title-blog">BLOG</h1>
+			<div class="row pd-bt">
+				<div class="col-3 blog-img blog-1"></div>
+				<div class="col-9 articulo">
+					<h4>TÍTULO DEL ARTICULO</h4>
+					<p class="fecha">Fecha</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, nam vel ipsam explicabo tenetur ducimus dicta dolore? Aperiam alias impedit laudantium asperiores expedita minus fuga nesciunt, at, explicabo sapiente, laborum!</p>
+					<a href="#" class="boton">Ver más</a>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-2">
+			<div class="row pd-bt">
+				<div class="col-3">
 					<div class="blog-img blog-2"></div>
 				</div>
-				<div class="col-10">
-					<div class="articulo">
-						<h6>TÍTULO DEL ARTICULO</h6>
-						<p class="fecha">Fecha</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, nam vel ipsam explicabo tenetur ducimus dicta dolore? Aperiam alias impedit laudantium asperiores expedita minus fuga nesciunt, at, explicabo sapiente, laborum!</p>
-						<a href="#" class="boton">Ver más</a>
-					</div>
+				<div class="col-9 articulo">
+					<h4>TÍTULO DEL ARTICULO</h4>
+					<p class="fecha">Fecha</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, nam vel ipsam explicabo tenetur ducimus dicta dolore? Aperiam alias impedit laudantium asperiores expedita minus fuga nesciunt, at, explicabo sapiente, laborum!</p>
+					<a href="#" class="boton">Ver más</a>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-2">
+			<div class="row pd-bt">
+				<div class="col-3">
 					<div class="blog-img blog-3"></div>
 				</div>
-				<div class="col-10">
-					<div class="articulo">
-						<h6>TÍTULO DEL ARTICULO</h6>
-						<p class="fecha">Fecha</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, nam vel ipsam explicabo tenetur ducimus dicta dolore? Aperiam alias impedit laudantium asperiores expedita minus fuga nesciunt, at, explicabo sapiente, laborum!</p>
-						<a href="#" class="boton">Ver más</a>
-					</div>
+				<div class="col-9 articulo">
+					<h4>TÍTULO DEL ARTICULO</h4>
+					<p class="fecha">Fecha</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, nam vel ipsam explicabo tenetur ducimus dicta dolore? Aperiam alias impedit laudantium asperiores expedita minus fuga nesciunt, at, explicabo sapiente, laborum!</p>
+					<a href="#" class="boton">Ver más</a>
 				</div>
 			</div>
 		</div>
@@ -77,20 +67,13 @@
 		<div class="container">
 			<div class="formulario">
 				<h2 class="contacto">Contáctanos</h2>
-			<form>
-				<p>
-					<input id="name" class="entradas" type="text" name="nombre" placeholder="Nombre">
-				</p>
-				<p>
-					<input id="mail" class="entradas" type="email" name="email" placeholder="Email">
-				</p>
-				<p>
-					<textarea id="message" placeholder="Mensaje"></textarea>
-				</p>
-				<p>
-					<button class="enviar">ENVIAR</button>
-				</p>
-			</form>
+				<form>
+						<input id="name" class="entradas" type="text" name="nombre" placeholder="Nombre">
+						<input id="mail" class="entradas" type="email" name="email" placeholder="Email">
+						<textarea id="message" placeholder="Mensaje"></textarea>
+						<button class="enviar">ENVIAR</button>
+					</p>
+				</form>
 			</div>
 		</div>
 	</section>

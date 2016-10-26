@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Escuela de Danza - Clases</title>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/simplegrid.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/clases.css">
-	<title>Escuela de Danza - Clases</title>
 </head>
 <body>
 	<!-- Inserta tu código aqui -->
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-12">
-					<h1><a href="index.html">ESCUELA DE DANZA</a></h1>
-				</div>
-				<div class="col-12">
-					<nav>
-						<a href="nosotros.html">Nosotros</a>
-						<a href="clases.html">Clases</a>
-						<a href="blog.html">Blog</a>
-						<a href="#contacto">Contáctanos</a>
-					</nav>
-				</div>
+				<a class="titulo" href="index.html">ESCUELA DE DANZA</a>
+				<nav class="menu-principal">
+					<a href="nosotros.html">Nosotros</a>
+					<a href="clases.html">Clases</a>
+					<a href="blog.html">Blog</a>
+					<a href="#contacto">Contáctanos</a>
+				</nav>
 			</div>
 		</div>
 	</header>
 	<section class="clases">
 		<div class="container">
-			<h2 class="title">OFERTAS DE CLASES</h2>
+			<h1 class="title-clases">OFERTAS DE CLASES</h1>
 			<div class="row">
 				<div class="col-4">
 					<div class="dancer ballet">
@@ -90,20 +88,13 @@
 		<div class="container">
 			<div class="formulario">
 				<h2 class="contacto">Contáctanos</h2>
-			<form>
-				<p>
-					<input id="name" class="entradas" type="text" name="nombre" placeholder="Nombre">
-				</p>
-				<p>
-					<input id="mail" class="entradas" type="email" name="email" placeholder="Email">
-				</p>
-				<p>
-					<textarea id="message" placeholder="Mensaje"></textarea>
-				</p>
-				<p>
-					<button class="enviar">ENVIAR</button>
-				</p>
-			</form>
+				<form>
+						<input id="name" class="entradas" type="text" name="nombre" placeholder="Nombre">
+						<input id="mail" class="entradas" type="email" name="email" placeholder="Email">
+						<textarea id="message" placeholder="Mensaje"></textarea>
+						<button class="enviar">ENVIAR</button>
+					</p>
+				</form>
 			</div>
 		</div>
 	</section>
